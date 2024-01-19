@@ -1,0 +1,62 @@
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container, .list{
+  border: 2px solid rgb(198, 194, 194);
+  width: 50%;
+  margin: auto;
+  background-color: rgb(238, 233, 233);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+form{
+  width: 50%;
+  margin: auto;
+}
+.container input{
+ width: 100%;
+ margin-bottom: 15px;
+}
+
+.container label{
+  font-weight: bold;
+  font-size: medium;
+
+}
+
+.container form button{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  background-color: rgb(179, 206, 179);
+  margin-bottom: 10px;
+  border: 2px solid rgb(169, 194, 169);
+  border-radius: 10px;
+  font-size: large;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+}
+.list{
+  margin-top: 50px;
+}
+
+table{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
+}

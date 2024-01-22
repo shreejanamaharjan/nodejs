@@ -8,4 +8,8 @@ app.get("/", function(req, res){
     res.render("index");
 });
 
+app.get("/practice_question", function(req, res){
+    res.render("practice_question");
+});
+
 app.listen(3000);

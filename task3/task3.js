@@ -77,7 +77,7 @@ app.delete("/create/:id", function(req, res){
 
 // Create an API to search among the products. Search by either name or description. Sort by price,
 // filter by product_type
-app.get("/create/search", function(req, res){
+app.get("/search", function(req, res){
     const {query, sort, filter} = req.query;
     let products = readDatafile();
 
@@ -97,7 +97,7 @@ app.get("/create/search", function(req, res){
 });
 
 // List out of stock products (quantity less than 5)
-app.get("/create/out-of-stock", function(req, res)  {
+app.get("/out-of-stock", function(req, res)  {
     const products = readDatafile();
     const outOfStockProducts = products.filter(p => p.quantity < 5);
     res.json(outOfStockProducts);

@@ -1,0 +1,33 @@
+[
+    {
+        "userID": 1,
+        "name": "shreejana",
+        "address": "kalanki",
+        "contact": 9841952199,
+        "cart": []
+    },
+    {
+        "userID": 2,
+        "name": "shreeya",
+        "address": "thecho",
+        "contact": 9841952154
+    },
+    {
+        "userID": 3,
+        "name": "ashila",
+        "address": "banasthali",
+        "contact": 9841952179
+    },
+    {
+        "userID": 4,
+        "name": "sunita",
+        "address": "kalimati",
+        "contact": 9841952567
+    },
+    {
+        "userID": 5,
+        "name": "suchita",
+        "address": "kalanki",
+        "contact": 9841952199
+    }
+]

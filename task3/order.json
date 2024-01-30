@@ -1,0 +1,13 @@
+[
+    {
+        "userID": 2,
+        "items": [
+            {
+                "productID": 3,
+                "quantity": 1
+            }
+        ],
+        "totalPrice": 370,
+        "orderDate": "2024-01-30T07:23:05.412Z"
+    }
+]
